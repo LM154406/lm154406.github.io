@@ -45,7 +45,7 @@ another example of xreating a table
 |   return   | The result a function gives back. | `return total;` | frisbee |  |
 |    scope  | Where a variable or function can be used. | (No set syntax — concept-based) | pngs |  |
 |   class   | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
-|      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+|   object   | A specific version of a class. | `Dog myDog = Dog();` |  |  |
 |      | A variable that belongs to a class/object. | `String name;` |  |  |
 |      | A function that belongs to a class. | `void bark() {}` |  |  |
 |      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
