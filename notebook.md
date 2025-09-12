@@ -5,6 +5,7 @@
   - [Binary](#binary-flippy-do-number-system)
   - [Practice](#practice)
 - [Day 2](#day-2)
+- [Code Definitions](#code-definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 
@@ -27,7 +28,30 @@ another example of xreating a table
 |dividers in row 2, data in 3|-|-|-|-|
 |and beyond |-|-|-|-|
 
-
+## Code Definitions
+| Term | Definition | Base Structure / Syntax | Real Life Example | App Example (ignore)|
+|------|------------|--------------------------|-------------------|-------------|
+|   variable   | A named container used to store a value that may change. | `var x = 5;` | age |  |
+|   constant   | A fixed value that cannot change once set. | `const PI = 3.14;` | birth day |  |
+|  Data type    | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` | games, internet, texts |  |
+|   string   | A sequence of characters used to represent words or text. | `"Hello World"` | links |  |
+|  integer    | Whole number values. | `int age = 16;` | streaks |  |
+|   double   | Number values with decimals. | `double age = 16.2;` | money |  |
+|   boolean   | A value that can be true or false. | `bool isLoggedIn = false;` | decisions |  |
+|   list   | A collection of values in a specific order. | `List<String> names = [];` | a list |  |
+|   null   | A special value that means “nothing.” | `String? name = null;` |  |  |
+|    funtion  | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` | light switch |  |
+|   parameter   | The information passed into a function to change how it works. | `greet(String name)` | operators on calculator |  |
+|   return   | The result a function gives back. | `return total;` | frisbee |  |
+|    scope  | Where a variable or function can be used. | (No set syntax — concept-based) | pngs |  |
+|   class   | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
+|      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+|      | A variable that belongs to a class/object. | `String name;` |  |  |
+|      | A function that belongs to a class. | `void bark() {}` |  |  |
+|      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
+|      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+|      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
+|      | A function that does not return a value. | `void printMessage() {}` |  |  |
 
 
 ## Day 1
