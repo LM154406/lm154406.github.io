@@ -47,7 +47,7 @@ another example of xreating a table
 |   class   | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
 |   object   | A specific version of a class. | `Dog myDog = Dog();` |  |  |
 |   property   | A variable that belongs to a class/object. | `String name;` |  |  |
-|      | A function that belongs to a class. | `void bark() {}` |  |  |
+|   method   | A function that belongs to a class. | `void bark() {}` |  |  |
 |      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
 |      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
 |      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
