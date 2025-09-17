@@ -64,13 +64,13 @@ Convert 2989 from decimal (base 10) to hexadecimal (base 16)
 |   parameter   | The information passed into a function to change how it works. | `greet(String name)` | operators on calculator |  |
 |   return   | The result a function gives back. | `return total;` | frisbee |  |
 |    scope  | Where a variable or function can be used. | (No set syntax — concept-based) | pngs |  |
-|   class   | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
-|   object   | A specific version of a class. | `Dog myDog = Dog();` |  |  |
-|   property   | A variable that belongs to a class/object. | `String name;` |  |  |
-|   method   | A function that belongs to a class. | `void bark() {}` |  |  |
-|   Constructor   | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
-|    Abstraction  | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
-|  Override    | Changing how a built-in or inherited function behaves. | `@override` |  |  |
+|   class   | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` | animal |  |
+|   object   | A specific version of a class. | `Dog myDog = Dog();` | cat |  |
+|   property   | A variable that belongs to a class/object. | `String name;` | house |  |
+|   method   | A function that belongs to a class. | `void bark() {}` | brushing teeth |  |
+|   Constructor   | A special function used to set up a class when it’s created. | `Dog(this.name);` | picking name |  |
+|    Abstraction  | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) | invisibility cloak |  |
+|  Override    | Changing how a built-in or inherited function behaves. | `@override` | override key |  |
 |  Void    | A function that does not return a value. | `void printMessage() {}` |  |  |
 
 # Pseudocode Java Reference  
