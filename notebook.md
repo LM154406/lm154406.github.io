@@ -4,14 +4,13 @@
 - [Binary Notes](#binary-notes)
   - [Binary](#binary-flippy-do-number-system)
   - [Practice](#practice)
-- [Day 2](#day-2)
-- [Code Definitions](#code-definitions)
+- [Coding](coding)
+  - [Code Definitions](#code-definitions)
+  -[Psuedocode and Jave Table](psuedocode-and-jave-reference)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
-
-## Binary Notes
-
-### Binary Flippy-do/number system
+# Binary Notes
+### Binary Flippy do number system
 
 |1|2|3|4|5|6|7|8|9|
 |-|-|-|-|-|-|-|-|-|
@@ -27,6 +26,27 @@ another example of xreating a table
 |-|-|-|-|-|
 |dividers in row 2, data in 3|-|-|-|-|
 |and beyond |-|-|-|-|
+
+### Binary conversion Table
+
+Convert 110101 from Binary (base 2) to Decimal (base 10)
+| Value        | 1   | 1   | 0   | 1   | 0   | 1   |
+|--------------|-----|-----|-----|-----|-----|-----|
+| base^Exponent (B^E) | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |  
+| (B^E) * value       | 32*1 | 16*1 | 8*0 | 4*1 | 2*0 | 1*1 |    
+| Results added       | 32+  | 16+  | 0+  | 4+  | 0+  | 1 |
+
+**Result is 53**
+
+### Convert from decimal
+
+Convert 2989 from decimal (base 10) to hexadecimal (base 16)
+| Value/base | 2989/16 | 186/16 | 11/16 |
+|------------|----------|---------|--------|
+| Result     | 186      | 11      | 0      |   
+| Remainder  | D (13)   | A (10)  | B (11) |   
+
+**Result is BAD**
 
 ## Code Definitions
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example (ignore)|
@@ -48,10 +68,27 @@ another example of xreating a table
 |   object   | A specific version of a class. | `Dog myDog = Dog();` |  |  |
 |   property   | A variable that belongs to a class/object. | `String name;` |  |  |
 |   method   | A function that belongs to a class. | `void bark() {}` |  |  |
-|      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
-|      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
-|      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
-|      | A function that does not return a value. | `void printMessage() {}` |  |  |
+|   Constructor   | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
+|    Abstraction  | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+|  Override    | Changing how a built-in or inherited function behaves. | `@override` |  |  |
+|  Void    | A function that does not return a value. | `void printMessage() {}` |  |  |
+
+# Pseudocode Java Reference  
+
+| **Concept** | **CSP Pseudocode** | **Java** |
+|-------------|--------------------|----------|
+| **Variables** | `x ← 5`<br/>`name ← "Alex"` | `int x = 5;`<br/>`String name = "Alex";` |
+| **If/Else** | `IF score ≥ 60`<br/>`    DISPLAY "Pass"`<br/>`ELSE`<br/>`    DISPLAY "Fail"` | `if (score >= 60) {`<br/>`    System.out.println("Pass");`<br/>`} else {`<br/>`    System.out.println("Fail");`<br/>`}` |
+| **Else If Chains** | `IF score ≥ 90`<br/>`    DISPLAY "A"`<br/>`ELSE IF score ≥ 80`<br/>`    DISPLAY "B"`<br/>`ELSE`<br/>`    DISPLAY "C or below"` | `if (score >= 90) {`<br/>`    System.out.println("A");`<br/>`} else if (score >= 80) {`<br/>`    System.out.println("B");`<br/>`} else {`<br/>`    System.out.println("C or below");`<br/>`}` |
+| **For Loop** | `FOR i ← 1 TO 10`<br/>`    DISPLAY i` | `for (int i = 1; i <= 10; i++) {`<br/>`    System.out.println(i);`<br/>`}` |
+| **While Loop** | `REPEAT UNTIL guess = secret`<br/>`    guess ← INPUT()` | `while (guess != secret) {`<br/>`    guess = input.nextInt();`<br/>`}` |
+| **Lists (ArrayList)** | `numbers ← [2, 4, 6]`<br/>`APPEND 8 TO numbers`<br/>`REMOVE numbers[1]`<br/>`x ← LENGTH(numbers)` | `ArrayList<Integer> numbers = new ArrayList<>();`<br/>`numbers.add(2);`<br/>`numbers.add(4);`<br/>`numbers.add(6);`<br/>`numbers.add(8); // APPEND`<br/>`numbers.remove(1); // REMOVE`<br/>`int x = numbers.size(); // LENGTH` |
+| **Traversal (For Each)** | `FOR EACH num IN numbers`<br/>`    DISPLAY num` | `for (int num : numbers) {`<br/>`    System.out.println(num);`<br/>`}` |
+| **Traversal (Index)** | `FOR i ← 0 TO LENGTH(numbers)-1`<br/>`    DISPLAY numbers[i]` | `for (int i = 0; i < numbers.size(); i++) {`<br/>`    System.out.println(numbers.get(i));`<br/>`}` |
+| **Procedure (Void)** | `PROCEDURE greet(name)`<br/>`    DISPLAY "Hello " + name` | `public static void greet(String name) {`<br/>`    System.out.println("Hello " + name);`<br/>`}` |
+| **Procedure (Return)** | `PROCEDURE square(num)`<br/>`    RETURN num * num` | `public static int square(int num) {`<br/>`    return num * num;`<br/>`}` |
+| **Procedure (Boolean)** | `PROCEDURE isEven(num)`<br/>`    IF num MOD 2 = 0`<br/>`        RETURN true`<br/>`    ELSE`<br/>`        RETURN false` | `public static boolean isEven(int num) {`<br/>`    if (num % 2 == 0) {`<br/>`        return true;`<br/>`    } else {`<br/>`        return false;`<br/>`    }`<br/>`}` |
+
 
 
 ## Day 1
