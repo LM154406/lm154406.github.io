@@ -8,7 +8,7 @@
   - [Code Definitions](#code-definitions)
   -[Psuedocode and Jave Table](psuedocode-and-jave-reference)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
-- [Pseudocode Java Reference](pseudocode-java-reference)
+- [Pseudocode Java Reference](#pseudocode-java-reference)
 
 # Binary Notes
 ### Binary Flippy do number system
