@@ -113,12 +113,39 @@ Convert 2989 from decimal (base 10) to hexadecimal (base 16)
 **Structure of a variable**
 ```Java
 // DataType variablename = value;
-= is the assignment operater, spoken as "gets"
+// = is the assignment operater, spoken as "gets"
 String name = "Davisson";
-int gps = 3.5;
+int gpa = 3.5;
 char initial = "0":
 bolean isOn = false
 ```
+
+
+**Primitive dataType**
+
+Is a value that takes no more than 1 byte
+Examples: int, char, boolean, double
+
+**Pointer DataTypes**
+
+Object dataTpes, they're too big for one byte, so instead of storing the data, it stores a pointer, which points to the memory location of the data 
+Example: String, List, Arraylist, and objects created from a class
+
+**Semicolon ;**
+Is like a period. It's the end of your code statement.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Day 1
