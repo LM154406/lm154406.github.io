@@ -6,9 +6,10 @@
   - [Practice](#practice)
 - [Coding](coding)
   - [Code Definitions](#code-definitions)
-  -[Psuedocode and Jave Table](psuedocode-and-jave-reference)
+  - [Psuedocode and Java Table](#psuedocode-and-java-table)
+  - [Variables and DataTypes](#variables-and-datatypes)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
-- [Pseudocode Java Reference](#pseudocode-java-reference)
+
 
 # Binary Notes
 ### Binary Flippy do number system
@@ -74,7 +75,7 @@ Convert 2989 from decimal (base 10) to hexadecimal (base 16)
 |  Override    | Changing how a built-in or inherited function behaves. | `@override` | override key |  |
 |  Void    | A function that does not return a value. | `void printMessage() {}` |  |  |
 
-# Pseudocode Java Reference  
+# Psuedocode and Java Table
 
 | **Concept** | **CSP Pseudocode** | **Java** |
 |-------------|--------------------|----------|
@@ -90,7 +91,7 @@ Convert 2989 from decimal (base 10) to hexadecimal (base 16)
 | **Procedure (Return)** | `PROCEDURE square(num)`<br/>`    RETURN num * num` | `public static int square(int num) {`<br/>`    return num * num;`<br/>`}` |
 | **Procedure (Boolean)** | `PROCEDURE isEven(num)`<br/>`    IF num MOD 2 = 0`<br/>`        RETURN true`<br/>`    ELSE`<br/>`        RETURN false` | `public static boolean isEven(int num) {`<br/>`    if (num % 2 == 0) {`<br/>`        return true;`<br/>`    } else {`<br/>`        return false;`<br/>`    }`<br/>`}` |
 
-# Pseudocode Java Reference  
+# Pseudocode Java Reference
 
 | **Concept** | **CSP Pseudocode** | **Java** |
 |-------------|--------------------|----------|
@@ -106,6 +107,18 @@ Convert 2989 from decimal (base 10) to hexadecimal (base 16)
 | **Procedure (Return)** | `PROCEDURE square(num)`<br/>`    RETURN num * num` | `public static int square(int num) {`<br/>`    return num * num;`<br/>`}` |
 | **Procedure (Boolean)** | `PROCEDURE isEven(num)`<br/>`    IF num MOD 2 = 0`<br/>`        RETURN true`<br/>`    ELSE`<br/>`        RETURN false` | `public static boolean isEven(int num) {`<br/>`    if (num % 2 == 0) {`<br/>`        return true;`<br/>`    } else {`<br/>`        return false;`<br/>`    }`<br/>`}` |
 
+
+## Variables and DataTypes
+
+**Structure of a variable**
+```Java
+// DataType variablename = value;
+= is the assignment operater, spoken as "gets"
+String name = "Davisson";
+int gps = 3.5;
+char initial = "0":
+bolean isOn = false
+```
 
 
 ## Day 1
