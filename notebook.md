@@ -4,10 +4,12 @@
 - [Binary Notes](#binary-notes)
   - [Binary](#binary-flippy-do-number-system)
   - [Practice](#practice)
-- [Coding](coding)
+- [Java/Psuedocode Coding](coding)
   - [Code Definitions](#code-definitions)
   - [Psuedocode and Java Table](#psuedocode-and-java-table)
   - [Variables and DataTypes](#variables-and-datatypes)
+  - [Conditionals](#conditionals)
+  - [Important](#important)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 
@@ -134,12 +136,121 @@ Example: String, List, Arraylist, and objects created from a class
 **Semicolon ;**
 Is like a period. It's the end of your code statement.
 
+## Conditionals
+
+if(condition)
+{
+	//do if condition is true
+} else if (nextCondition)
+{
+//do if condition is false but nextCondition is true
+} else
+{
+	//do if all prior conditions are false
+}
+
+Int num = 5;
+if(num > 0){
+System.out.print("Positive")
+}
+
+Int num = -5;
+if(num < 0){
+System.out.print("Negative")
+}
+
+Int num = 0;
+if(num = 0){
+System.out.print("Zero")
+}
+
+Int age = 99;
+if (age >= 18){
+	System.out.print(“Adult”)
+}
 
 
+int  score = 101;
+if(score > 100){
+System.out.print(“Invalid score”)
+}
 
+Int temp = 2;
+If(int < 32){
+	system.out.print(“Freezing”)
+}
 
+Int score = 1;
+If(score >= 60){
+System.out.print(“Pass”)
+}Else 
+{ 
+System.out.print(“Fail”)
+}
 
+Int num = 3;
+If(num % 2 == 0){
+system.out.println(“Even”)
+}Else
+{
+system.out.println(“Odd”)
+}
 
+String password = "Javarocks";
+if(password.equals("JavaRocks"){
+  system.out.println.("Access Granted");
+} else
+{
+  System.out.println("Access Denied")
+  }
+
+int score = 90;
+String grade;
+if(score >= 90)
+{
+  Grade = "A";
+  system.out.println("You have a "grade "!");
+  } elif (score >= 80) {
+    grade = "B";
+    system.out.println("You have a "grade "!");
+  } elif (score >= 70) {
+    grade = "C";
+    system.out.println("You have a "grade ".");
+  } elif (score >= 60) {
+    grade = "D";
+    system.out.println("You have a "grade ".");
+  } else
+    grade = "F";
+    system.out.println("You have an "grade "...");
+  }
+
+ int age = 12;
+ if(age >= 13 && age <= 19){
+   system.out.println("Teenager")
+  }
+Int num = 3;
+if(num > 0){
+  If(num % 2 == 0){
+    system.out.println(“Even”);
+  }Else
+  {
+    system.out.println(“Odd”);
+  }
+} else
+{
+  system.out.println("Negative");
+}
+  
+ 
+
+## Important
+// % is the remainder of the number being divided by the number after it like 3/2 = 1 but the remainder would be 1 making it odd
+// == checks for equality in nums, true/false, char.
+// word.equals(word2) to check if the value of srings are equal
+/* && and operator
+|| or operator
+!= not equal operator
+! not operator
 
 
 
