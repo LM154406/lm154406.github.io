@@ -6,10 +6,12 @@
   - [Practice](#practice)
 - [Java/Psuedocode Coding](coding)
   - [Code Definitions](#code-definitions)
+  - [Code Checker](#code-checker)
   - [Psuedocode and Java Table](#psuedocode-and-java-table)
   - [Variables and DataTypes](#variables-and-datatypes)
   - [Conditionals](#conditionals)
   - [Important](#important)
+  - [For Loops](#for-loops)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 
@@ -76,7 +78,8 @@ Convert 2989 from decimal (base 10) to hexadecimal (base 16)
 |    Abstraction  | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) | invisibility cloak |  |
 |  Override    | Changing how a built-in or inherited function behaves. | `@override` | override key |  |
 |  Void    | A function that does not return a value. | `void printMessage() {}` |  |  |
-
+# Code Checker
+https://www.codechef.com/java-online-compiler
 # Psuedocode and Java Table
 
 | **Concept** | **CSP Pseudocode** | **Java** |
@@ -252,9 +255,20 @@ if(num > 0){
 != not equal operator
 ! not operator
 
+## For Loops
 
-
-
+```java
+	for int (int 1 = 1; i <= 10; i++0 {
+		//body of code
+	}
+```
+Components of The For Loop:
+For: Specifies the type of loop.
+(Parenthesis): The rules for the loop.
+int i = 1; : Created the counter variable starting at 0 or 1 most often, standard naming calls it "i" which is short for index, but  could be named counter, score, or any other relavent name.
+i <- 10; : The condition that it runs if it is true.
+i++ : Increments "i" by 1, could be replace with i = 1 + 1, i == 2 which would add 2, i*= which would multiply it by 3, or any other modifiers.
+{Curly Brackets}: The bpdy of the code that runs during the loop.
 
 
 
