@@ -78,6 +78,8 @@ Convert 2989 from decimal (base 10) to hexadecimal (base 16)
 |    Abstraction  | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) | invisibility cloak |  |
 |  Override    | Changing how a built-in or inherited function behaves. | `@override` | override key |  |
 |  Void    | A function that does not return a value. | `void printMessage() {}` |  |  |
+| Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
+| Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
 # Code Checker
 https://www.codechef.com/java-online-compiler
 # Psuedocode and Java Table
